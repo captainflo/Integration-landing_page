@@ -1,0 +1,143 @@
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  color: #333333;
+  text-align: center;
+}
+
+
+.principal{
+  display: flex;
+  justify-content: space-between;
+  max-width: 999px;
+  margin-top: 71px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img{
+float: left;
+width: auto;
+height: auto;
+}
+
+.contenu{
+  display: flex;
+  flex-direction: column;
+  max-width: 482px;
+  float: right;
+}
+
+.title_entreprise{
+  display: block;
+}
+
+.title_dedicated{
+  display: block;
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #333333;
+  margin-top: 16px;
+}
+
+.h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #333333;
+  margin-top: 39px;
+  margin-left: 3px;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #7F7F7F;
+  font-weight: 400;
+  line-height: 23px;
+  margin-top: -9px;
+  margin-left: 2px;
+}
+
+.p1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #7F7F7F;
+  font-weight: 400;
+  line-height: 23px;
+  margin-top: -10px;
+  margin-left: 2px;
+}
+.stylebouton:hover{
+  opacity: 0.8;
+}
+.stylebouton{
+display: block;
+font-family:'Roboto', sans-serif;
+letter-spacing: 1.56px;
+font-size: 14px;
+font-weight: 500;
+color: #FFFFFF;
+text-align: center;
+text-decoration: none;
+border: none;
+background-color: #009DDC;
+border-radius: 4px;
+height: 50px;
+line-height: 50px;
+width: 156px;
+margin-top: -4px;
+margin-left: 4px;
+}
+@media all and (min-width:400px) and (max-width: 1000px)
+{
+
+  .principal{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: auto;
+    margin-top: 71px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 480px;
+  height: 346px;
+  }
+
+  .contenu{
+    display: flex;
+    flex-direction: column;
+    max-width: 482px;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+@media all and (min-width:400px) and (max-width: 487px)
+{
+  img{
+    width: 100%;
+    height: auto;
+  }
+
+  h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #333333;
+    text-align: center;
+  }
+}
